@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Unbounded&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; text
+font-family: 'Unbounded', cursive; title */
+
+
+*, ::before, ::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	min-height: 100vh;
+	background-color: #F3F3F3;
+	background-image: url('../assets/patternpad.svg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#app {
+	overflow: hidden;
+	min-width: 100vw;
+	min-height: 100vh;
+}
