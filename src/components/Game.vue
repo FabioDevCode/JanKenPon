@@ -22,8 +22,7 @@ let c_papier: Ref<boolean> = ref(false);
 let c_ciseaux: Ref<boolean> = ref(false);
 
 
-
-const array_choice: [string] = ["pierre", "papier", "ciseaux"];
+const array_choice = ["pierre", "papier", "ciseaux"];
 
 
 // Methods
